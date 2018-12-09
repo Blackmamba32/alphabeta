@@ -9,7 +9,10 @@
         
     </head>
     <body>
-        @include('inc.nav2')
+        <header>
+            <img class="img-responsive" src="{{URL::to('/')}}/img/5.jpg" alt=""/>
+        </header>
+        @include('inc.navbar')
         <div class="container">
        @yield('content')
         </div> 
